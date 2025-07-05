@@ -1,0 +1,482 @@
+/* Dark Theme */
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+/* Use Operating System theme for the website */
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+} */
+
+/* Add custom font family */
+/* @font-face {
+  font-family: "My Custom Font";
+  src: url("assets/Inter/static/Inter-Regular.ttf");
+} */
+
+body {
+  padding: 0 1em;
+  max-width: 42rem;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen,
+    Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  /* font-family: "Libre Baskerville", Libre, Georgia, Times, serif; */
+  /* font-family: "SF Pro Display", "SF Pro Icons"; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: "Helvetica, Arial, sans-serif"; */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+h1 h2 {
+  margin: 24px;
+}
+
+h3 {
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+figure {
+  display: table;
+  margin: 8px 16px;
+  font-size: 12px;
+}
+
+figcaption {
+  padding: 4px 0;
+  text-align: center;
+  caption-side: bottom;
+  display: table-caption;
+}
+
+a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  /* color: lightblue; */
+}
+
+li {
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+footer {
+  /* bottom: 0; */
+  width: 90%;
+  height: 48px;
+  margin: 36px 0;
+  font-size: 10px;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.profile-container {
+  width: 100%;
+  margin: 2% 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.profile-image {
+  height: 220px;
+  width: 220px;
+  min-width: 200px;
+  border-radius: 3%;
+  margin-right: 24px;
+  margin-bottom: 12px;
+}
+
+.school-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.education-description {
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.about-text {
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 24px;
+}
+
+.experience-title {
+  font-size: 16px;
+  padding: 8px 0 8px 0;
+  font-weight: 650;
+}
+
+.filter-experience-tabs {
+  gap: 4px;
+  display: flex;
+  font-size: 13px;
+  flex-direction: row;
+  padding-top: 4px;
+  padding-bottom: 28px;
+}
+
+.company {
+  padding: 8px 0;
+}
+
+.company-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-logo-container {
+  margin-right: 16px;
+}
+
+.company-logo {
+  width: 42px;
+  height: 42px;
+}
+
+.company-title {
+  font-size: 16px;
+  font-weight: 550;
+  padding-bottom: 4px;
+}
+
+.role-header {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 4px 0;
+  justify-content: space-between;
+}
+
+.role-header-item {
+  padding: 0 2px;
+}
+
+.role-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.role-duration {
+  font-size: 13px;
+  font-style: italic;
+  padding-top: 4px;
+}
+
+.role-description {
+  font-size: 14px;
+  padding: 16px 0;
+}
+
+.role-ul {
+  margin: 0px;
+  padding: 0px 0px 0 20px;
+}
+
+.degree-title {
+  /* font-size: 12px;
+  font-weight: 600;
+  font-style: italic; */
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.company-images {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 24px; */
+  /* padding-top: 12px; */
+  /* justify-content: space-between; */
+}
+
+.company-image {
+  width: 190px;
+  border-radius: 2%;
+}
+
+.company-email
+{
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.company-duration {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.company-location {
+  font-size: 12px;
+}
+
+.advisor-name {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.row-header {
+  width: 100%;
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.row-header-item {
+  padding: 0 2px;
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 18px;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  font-size: 12px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.footer-text {
+  font-size: 10px;
+  margin: 32px 0;
+  color: dimgrey;
+  width: -webkit-max-content;
+}
+
+.education {
+  margin-top: 12px;
+}
+
+.education-links {
+  display: flex;
+  font-size: 12px;
+  padding: 6px 0;
+  align-items: center;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.education-figure-container {
+  height: 100%;
+  margin: 16px 0 0 0;
+}
+
+.education-image {
+  width: 200px;
+  height: auto;
+  border-radius: 2%;
+}
+
+.education-subtitle {
+  padding: 4px 0;
+  font-size: 13px;
+}
+
+.education-text {
+  margin: 0 30px 0 0;
+}
+
+.filters-div {
+  display: flex;
+  padding: 12px 0 6px 0;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter-result {
+  font-size: 12px;
+  font-style: italic;
+  padding: 20px 0 28px 0;
+}
+
+.filter-icon {
+  width: 28px;
+  height: 18px;
+  padding: 4px 2px;
+  margin-right: 8px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.year-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0 16px 0;
+}
+
+.project-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.project-subsection {
+  display: flex;
+  padding: 6px 0;
+  flex-wrap: wrap;
+  font-size: 12px;
+  /* color: dimgrey; */
+}
+
+.project-description {
+  font-size: 14px;
+  text-align: justify;
+  padding: 8px 0px 4px 0px;
+  line-height: 1.4;
+}
+
+.hr {
+  margin: 16px 0;
+  opacity: 0.2;
+}
+
+.project-ul {
+  padding: 0px 16px;
+  margin: 0px;
+}
+
+.paper-title {
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+.paper-subsection {
+  padding: 8px 0;
+}
+
+.paper-authors {
+  padding: 8px 0;
+}
+
+.theme-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.pad {
+  padding: 3px 0;
+  font-size: 14px;
+}
+
+.small-pad {
+  padding: 4px 0;
+  font-size: 13px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  font-size: 14px;
+}
+
+.education-container {
+  gap: 16px;
+  display: flex;
+  margin-top: 8px;
+  align-items: flex-start;
+}
+
+.education-logo-container {
+  flex-shrink: 0;
+  height: 80px;
+  display: flex;
+  padding-top: 2px;
+  justify-content: center;
+}
+
+.education-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.education-content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact {
+  padding-bottom: 24px;
+}
+
+.contact-ul {
+  margin: 0px;
+  padding: 4px 0px 20px 24px;
+}
+
+.paper-list {
+  margin: 0px;
+  padding: 4px 0px 20px 24px;
+}
